@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'main', url:t 'https://github.com/Deepu2429/TestNG_Project2.git'
+                git branch: 'main', url: 'https://github.com/Deepu2429/TestNG_Project2.git'
             }
         }
         
